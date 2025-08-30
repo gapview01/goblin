@@ -1,0 +1,15 @@
+name: CI (lint-readme)
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  readme-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check files exist
+        run: |
+          test -f README.md
+          test -f ARCHITECTURE.md
+          test -f REPO-MAP.md

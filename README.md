@@ -1,2 +1,9 @@
-# goblin
-Goblin is a Solana agent wallet – more creature than app. It’s your entry to our modular ecosystem of bots, on‑chain programs, off‑chain services and governance. This repo maps the pieces and links you to the code.
+# Goblin — Solana Agent Wallet
+Not an app, a money creature.
+
+This is the **front door** to the Goblin ecosystem: a minimal map of what Goblin is, how it’s structured, and where to find the code.
+
+- Vision & layers: see **ARCHITECTURE.md**
+- Repos & links: see **REPO-MAP.md**
+
+We keep Goblin modular and open. Critical ops remain private.
