@@ -13,6 +13,8 @@ Goblin is organised into four conceptual buckets. Buckets are **meta categories*
 
 4) **Governance & Economics**
    Treasury policy, upgrade/pause rules, tokenomics, future DAO.
+   - goblin-treasury (private) — operational repo for Goblin’s treasuries:
+     wallet lists, fee flows, multisig signer roles, reconciliation & incident runbooks. No keys or secrets stored here.
 
 **Now vs Future**
 - Now: wallet, dev console, programs, services (API/indexer/timekeeper), SDK/CLI, first bot.

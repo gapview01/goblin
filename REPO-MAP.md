@@ -18,5 +18,6 @@ Buckets are conceptual; repos are the unit of analysis. Links are added as repos
 - goblin-infra — *(private)* IaC, pipelines, secrets
 
 ## 4) Governance & Economics
+- goblin-treasury — *(private)* treasury ops runbooks & docs
 - goblin-dao — *(public scaffold)* future DAO/contracts/UI
 - goblin-governance-private — *(private)* treasury policy, tokenomics, governance docs
