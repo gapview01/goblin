@@ -1,10 +1,28 @@
-# Goblin — Solana Agent Wallet
-Not an app, a money creature.
+# 🧙 Goblin
 
-This is the **front door** to the Goblin ecosystem: a minimal map of what Goblin is, how it’s structured, and where to find the code.
+Goblin is an autonomous platform that combines **blockchain smart contracts, bots, and developer tooling** with a robust **CI/CD + DevSecOps pipeline**.  
+It is designed to move from **idea → production** quickly and safely, with minimal human oversight.
 
-- Vision & layers: see **ARCHITECTURE.md**
-- Repos & links: see **REPO-MAP.md**
-- Bucket 4 (Governance & Economics): **goblin-treasury** *(private)* — treasury ops runbooks
+---
 
-We keep Goblin modular and open. Critical ops remain private.
+## 📚 Documentation
+
+Core frameworks are stored in the [`/docs`](./docs) folder:
+
+1. **[Test Strategy](./docs/01-test-strategy.md)** – world-class testing framework.  
+2. **[Environment Strategy](./docs/02-environment-strategy.md)** – six environments from Sandbox → Production.  
+3. **[Test + Environment Combined](./docs/03-test-env-combined.md)** – mapping of tests to environments.  
+4. **[CI/CD + DevSecOps + Cloud](./docs/04-cicd-devsecops-cloud.md)** – full automation, GitHub Actions + Google Cloud hosting.
+
+---
+
+## 🚀 At a Glance
+
+- **Code** → lives in this repo (contracts, apps, infra).  
+- **Automation** → GitHub Actions workflows in `.github/workflows/`.  
+- **Hosting** → Google Cloud Run, Cloud SQL/Firestore, Solana Devnet/Testnet/Mainnet.  
+- **Security** → built-in scans, approvals, monitoring, and disaster recovery.  
+
+---
+
+📌 *For details, start in the [`/docs`](./docs) folder.*
